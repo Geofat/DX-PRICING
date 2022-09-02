@@ -10,18 +10,58 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* line-height: 44; */
+    margin-bottom: 30px;
+}
+header h2{
+    font-size: 20px;
+    font-weight: bolder;
+    line-height: 2;
+    /* margin-bottom: 20px; */
+    
+}
+header h3{
+    margin:20px 0;
+    line-height: 2;
 }
 .usage{
     display: flex;
+    /* border: 2px solid tomato; */
     /* width: 120px; */
     background: #D9D9D9;
+    /* border: 1px solid black; */
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
-.usage b{
-    background: #fff;
+.usage button{
+    border: 1px solid white;
+    padding: 5px 15px;
+    /* width: 20px; */
+    font-weight: bolder;
+    background: #FFFFFF;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 5px;
+    margin-right: 15px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.usage p{
+    align-self: center;
+    font-weight: bold;
+    color: black;
+    padding-bottom: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 /* pricing section starts here */
 section{
     display: flex;
+    justify-content: center;
     /* border: 1px solid tomato; */
     border: 1px solid black;
     border-top-left-radius: 40px;
@@ -29,8 +69,10 @@ section{
     border-top-right-radius: 40px;
     border-bottom-right-radius: 40px;
     justify-self: center;
-    width: 900px;
-    margin-left: 220px;
+    width: 65%;
+    /* width: 900px; */
+    margin-left: 250px;
+    /* margin-left: 220px; */
 }
 .package-container{
     /* border: 1px solid tomato; */
@@ -41,8 +83,8 @@ section{
     display: flex;
     margin-top: 10px;
     margin-bottom: 25px;
-    justify-content: flex-start;
-    width: 1286px;
+    justify-content: center;
+    /* width: 1286px; */
     margin-left: 50px;
 }
 .money{

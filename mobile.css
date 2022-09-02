@@ -1,0 +1,12 @@
+@media  screen and(max-width:1100px) {
+    /* pricing section starts here */
+section{
+    width: 100%;
+    flex-direction: column;
+}
+.package-container{
+    flex-direction: column;
+    width: 90%;
+}
+    /* pricing section ends here */
+}
