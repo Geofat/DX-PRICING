@@ -78,8 +78,8 @@ section {
     border-top-right-radius: 40px;
     border-bottom-right-radius: 40px;
     justify-self: center;
-    margin: 0 39px;
-    /* width: 65%; */
+    margin: 0 auto;
+    width: 70%;
     /* width: 900px; */
     /* margin-left: 250px; */
     /* margin-left: 220px; */
